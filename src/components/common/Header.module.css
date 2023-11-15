@@ -1,0 +1,28 @@
+header {
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 32px;
+  box-shadow: 4px 3px 0 0px black;
+  background-color: white;
+}
+
+.title {
+  margin-left: 14px;
+  font-size: 26px;
+  letter-spacing: 5px;
+  color: black;
+}
+
+a:has(.title) {
+  text-decoration: none;
+}
+
+.header-wrap {
+  width: 1224px;
+  max-width: calc(100% - 60px);
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
